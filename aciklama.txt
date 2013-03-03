@@ -1,0 +1,17 @@
+SQL Dosyasý klasörün içindedir.
+
+Sistem özellikleri;
+1) Form üzerinden alýnan kaydýn toplam uzunluðunu 135 karakter belirledim. Çünkü arada boþluklar kullanýyoruz tweet'de.
+2) Veri tabanýnda durum ve aktive olmak üzere 2 alan var.
+	Durum = "Tweet'in gönderilip gönderilmediði bilgisi";
+	Aktive = "Yöneticin onayý olup olmadýðý";
+	
+3) tweetGonder.php twFonk.php içindeki fonksiyonu kullanarak. Tweet gönderim iþini yapýyor.
+	- Gönderimi yaparken veri tabanýndan gönderilmemiþ, onaylý rastgele bir kayýt seçiyor.
+	- Gönderimden sonra gönderildi listesine alýnýp tekrar gönderilmiyor.
+	
+4) Admin paneline yonetici.php'den giriþ yapabilirsiniz.
+	- kullanýcý: admin , þifre : admin
+	- Mesajlarý burdan onaylayabilirsiniz.
+	
+5) twitGonder.php hosting üzerinde (cron) zamanlandýðý taktirde. Rastgele tweet gönderme iþlemini yapacaktýr.
