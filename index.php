@@ -35,7 +35,7 @@ include("config.php");
 <body>
 
 <div id="page-wrap">
-	<p>Her gün bir PHP Fonksiyonu Twitter'da. Sende ekle !</p>
+	<p>Her gün bir PHP Fonksiyonu Twitter'da. Sen de ekle !</p>
 
 	<?php
 	if(!empty($_POST))
